@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+.container{
+    height: 70vh; /* 70% part container gheil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin; /* 60% game gheil */
+    width: 60vmin;
+    display: flex; /*sagle blocks eka line madhe ale*/
+    flex-wrap: wrap; /*eka line madhe 3 block ale */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin; /* Ty 60% madhe aaplayla 3 blocks takayche ahet mhanun 20% each */
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 6vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: #ffffc7;
+    font-size: 6vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+
+.hide{
+    display: none;
+}
